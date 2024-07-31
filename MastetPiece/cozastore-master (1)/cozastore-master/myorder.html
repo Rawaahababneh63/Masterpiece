@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Orders</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .order-item {
+            border: 1px solid #dee2e6;
+            border-radius: 0.25rem;
+            margin-bottom: 1rem;
+            padding: 1rem;
+        }
+        .order-item h4 {
+            margin-bottom: 0.5rem;
+        }
+        .order-item p {
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">SecondLifeClothes</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="editprofile.html">Profile</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="myorder.html">Orders</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-5">
+        <h1>My Orders</h1>
+        <div class="order-item">
+            <h4>Order #12345</h4>
+            <p><strong>Date:</strong> July 15, 2024</p>
+            <p><strong>Status:</strong> Shipped</p>
+            <p><strong>Total:</strong> $150.00</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+        <div class="order-item">
+            <h4>Order #12346</h4>
+            <p><strong>Date:</strong> July 20, 2024</p>
+            <p><strong>Status:</strong> Processing</p>
+            <p><strong>Total:</strong> $75.00</p>
+            <a href="#" class="btn btn-primary">View Details</a>
+        </div>
+        <!-- Add more order items as needed -->
+    </div>
+    <footer class="footer bg-light mt-5 py-4">
+        <div class="container text-center">
+            <p class="mb-0">© 2024 SecondLifeClothes. All rights reserved.</p>
+            <p>
+                <a href="#">Privacy Policy</a>  
+                <a href="#">Terms of Service</a>
+            </p>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
